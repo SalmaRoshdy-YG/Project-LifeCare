@@ -86,11 +86,29 @@ nav ul li a {
 
 .service-item img {
     width: 100%;
+    height: auto;
     border-radius: 10px;
 }
 
 .contact-container {
     padding-bottom: 100px; /* Ensure there is enough space at the bottom */
+}
+
+.form-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    flex: 0 0 100px;
+    text-align: left;
+}
+
+.form-group input, .form-group textarea {
+    flex: 1;
+    padding: 8px;
+    margin-left: 10px;
 }
 
 footer {
