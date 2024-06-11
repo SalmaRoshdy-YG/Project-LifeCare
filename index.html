@@ -37,17 +37,17 @@
         <div class="services-container">
             <h2>Our Services</h2>
             <div class="service-item">
-                <img src="images/pexels-photo-5863400.webp" alt="Health Monitoring">
+                <img src="images/pexels-photo-1001897.webp" alt="Emergency Response" class="service-img">
                 <h3>24/7 Health Monitoring</h3>
                 <p>Our health monitoring solutions continuously track vital signs and provide real-time alerts to caregivers and family members, ensuring timely medical intervention when necessary.</p>
             </div>
             <div class="service-item">
-                <img src="images/istockphoto-1314006882-612x612.jpg" alt="Smart Home Integration">
+                <img src="images/istockphoto-1314006882-612x612.jpg" alt="Smart Home Integration" class="service-img">
                 <h3>Smart Home Integration</h3>
                 <p>Integrate smart home devices such as lighting, thermostats, and security systems, all controllable through voice commands or mobile apps, enhancing convenience and safety.</p>
             </div>
             <div class="service-item">
-                <img src="images/pexels-photo-1001897.webp" alt="Emergency Response">
+                <img src="images/pexels-photo-5863400.webp" alt="Health Monitoring" class="service-img">
                 <h3>Emergency Response</h3>
                 <p>Our emergency response systems instantly alert caregivers and medical professionals in the event of a fall or other emergency, providing peace of mind for seniors and their families.</p>
             </div>
@@ -68,12 +68,18 @@
         <div class="contact-container">
             <h2>Contact Us</h2>
             <form id="contact-form" action="https://formspree.io/f/xeqyyepl" method="POST">
-                <label for="name">Name:</label>
-                <input type="text" id="name" name="name" required>
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required>
-                <label for="message">Message:</label>
-                <textarea id="message" name="message" rows="4" required></textarea>
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+                </div>
                 <button type="submit">Submit</button>
             </form>
             <p>Email: support@lifecare.com</p>
