@@ -86,7 +86,8 @@ nav ul li a {
 
 .service-item img {
     width: 100%;
-    height: auto;
+    height: 200px; /* Set a consistent height for all images */
+    object-fit: cover; /* Ensure the images cover the entire area */
     border-radius: 10px;
 }
 
@@ -97,6 +98,7 @@ nav ul li a {
 .form-group {
     display: flex;
     align-items: center;
+    justify-content: center;
     margin-bottom: 15px;
 }
 
@@ -107,8 +109,10 @@ nav ul li a {
 
 .form-group input, .form-group textarea {
     flex: 1;
+    max-width: 300px; /* Set a maximum width for input and textarea */
     padding: 8px;
     margin-left: 10px;
+    margin-right: 10px;
 }
 
 footer {
