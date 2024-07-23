@@ -1,0 +1,10 @@
+{
+  "id": "lifepulse",
+  "name": "LifePulse",
+  "type": "app",
+  "icon": "icon.png", // Provide an icon if available
+  "version": "0.01",
+  "description": "Monitors heart rate and accelerometer data",
+  "tags": "health,monitoring",
+  "readme": "This app monitors heart rate and accelerometer data in the background and detects falls."
+}
